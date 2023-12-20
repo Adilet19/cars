@@ -1,0 +1,22 @@
+/* TableComponent.module.css */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #08080894;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: hsl(180, 10%, 68%);
+  }
+  
+  .table tfoot {
+    font-weight: bold;
+  }
+  
