@@ -20,7 +20,7 @@ const showOrders = (props) => {
 const showNothing = () => {
     return (
         <div className='empty'>
-            <h2>Вы не выбрали машинy</h2>
+            <h2>Вы не выбрали машину</h2>
         </div>
     )
 }
@@ -33,7 +33,7 @@ export default function Header(props) {
   return (
         <header>
             <div>
-                <span className='logo'>Cars</span>
+                <span className='logo'>Машины</span>
                 <ul className='nav'>
                     
 

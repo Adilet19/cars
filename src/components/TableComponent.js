@@ -1,6 +1,5 @@
-// TableComponent.js
 import React, { Component } from 'react'
-import './TableComponent.css';
+import './TableStyle.css';
 
 export class TableComponent extends Component {
   render() {
@@ -13,27 +12,23 @@ export class TableComponent extends Component {
             <th>Города</th>
           </tr>
         </thead>
-
-        {/* Тело таблицы */}
         <tbody>
           <tr>
-            <td>Yandex</td>
+            <td>Яндекс</td>
             <td>3+1</td>
             <td>Алматы</td>
           </tr>
           <tr>
-            <td>AnyTime</td>
+            <td>Энитайм</td>
             <td>6+2</td>
             <td>Астана</td>
           </tr>
           <tr>
-            <td>Prokat</td>
+            <td>Прокат</td>
             <td>10+2</td>
             <td>Шымкент</td>
           </tr>
         </tbody>
-
-        {/* Подвал таблицы */}
         <tfoot>
           <tr>
             <td colSpan="3">Выбирайте нас!</td>

@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,400&family=Poppins:ital,wght@0,100;1,300;1,600&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
-  background: #fff;
-  color: #222;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+.App {
+  font-family: sans-serif;
+  text-align: center;
 }
+
 
 .wrapper{
   width: 1280px;
@@ -19,12 +20,13 @@ body{
 
 header{
   position: relative;
+  margin-top: 3%;
 }
 
 header .logo{
   font-weight: 400;
   font-size: 20px;
-  margin-left: 85%;
+  margin-left: 80%;
 }
 
 header ul.nav{
@@ -84,7 +86,7 @@ header .shop-car .item{
 }
 
 header .shop-car .item img{
-  width: 70px;
+  width: 150px;
   float: left;
   margin-right: 20px;
 }
@@ -135,9 +137,9 @@ header .presentation{
 header .presentation::after{
   content: 'Лучшие машины для вашего комфорта';
   position: absolute;
-  top: 200px;
-  left: 450px;
-  width: 300px;
+  top: 190px;
+  left: 50px;
+  width: 500px;
   font-size: 40px;
   font-weight: 600;
   color: #fff;
@@ -147,8 +149,8 @@ header .presentation::after{
 header .presentation::before{
   content: 'по низким ценам';
   position: absolute;
-  top: 400px;
-  left: 452px;
+  top: 320px;
+  left: 52px;
   width: 300px;
   font-size: 15px;
   font-weight: 300;
@@ -209,8 +211,4 @@ main .add-to-car{
 
 main .add-to-car:hover{
     transform: scale(1.5) translateY(-5px);
-}
-
-@media (max-width: 600px) {
-  /* Специфические стили для мобильных устройств */
 }
